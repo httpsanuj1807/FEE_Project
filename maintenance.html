@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorry😞</title>
+    <script
+      src="https://kit.fontawesome.com/87601cc28a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+    <style>
+      html,
+      body {
+        margin: 0;
+        font-family: "Montserrat-Bold", sans-serif;
+        color:#fff;
+        height: 100%;
+        width: 100%;
+        
+        
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        font-weight: bold;
+      }
+      p {
+        margin: 1% 0;
+        font-size: 1.5rem;
+      }
+
+      
+      .cont {
+        background-color:#ff4c68 ;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        padding: 7% 15%;
+        
+      }
+
+      img {
+        height: 150px;
+        width: 150px;
+        animation: shake-animation 6s ease infinite;
+        transform-origin: 50% 50%;
+      }
+
+      .input-box{
+        border-radius: 5px;
+        height: 44px;
+        width: 40%;
+        padding: 0 0 0 10px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+        border: 2px solid gray;
+      }
+
+      .revertHome{
+        font-size: 1rem;
+        font-style: italic;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+      .revertHome:hover{
+        cursor: pointer;
+      }
+
+      @keyframes shake-animation {
+   0% { transform:translate(0,0) }
+  1.78571% { transform:translate(25px,0) }
+  3.57143% { transform:translate(0,0) }
+  5.35714% { transform:translate(25px,0) }
+  7.14286% { transform:translate(0,0) }
+  8.92857% { transform:translate(25px,0) }
+  10.71429% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+@media (max-width:991px){
+
+  html,
+      body {
+        margin: 0;
+        font-family: "Montserrat-Bold", sans-serif;
+        color:#fff;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        
+        
+      }
+
+      h1{
+        font-size: 3rem;
+      }
+
+      .btn{
+        margin: 10px 0;
+      }
+ 
+      .input-box{
+        position: relative;
+        left: 10%;
+        border-radius: 5px;
+        height: 44px;
+        width: 80%;
+        padding: 0 10 0 10px;
+        font-size: 1rem;
+        border: 2px solid gray;
+        display: block;
+      }
+
+     
+}
+
+    </style>
+  </head>
+  <body>
+    
+      <div class="cont">
+        <img  src="images/sad-doge.png" />
+
+        <h1>Under Development</h1>
+
+        <p>
+          Our website is currently undergoing development phase. Thank you for your patience.
+        </p>
+        <input
+          class="input-box"
+          type="email"
+          required
+          value=""
+          name="email"
+          placeholder="Enter your email"
+        />
+        <button class="notify-btn btn btn-dark btn-lg ">Notify Me</button>
+        <span id="success" style="display: none;"><em>Success, you will be notified.</em></span>
+        <p>Sign up now to get early notification once we are done !</p>
+        <p class="revertHome">Back to home.</p>
+      </div>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+      ></script>
+      <script src="/TinDog Start Here/index.js"></script>
+  </body>
+</html>
